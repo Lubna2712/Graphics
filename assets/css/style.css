@@ -1,0 +1,950 @@
+/* Diagram - XChange */
+
+.diagx {
+  width: 500px;
+  position: relative;
+  margin: 0 auto;
+  min-height: 600px;
+  left: -90px;
+  top: -40px;
+  -webkit-transition: all 200ms ease-in;
+  -ms-transition: all 200ms ease-in;
+  transition: all 200ms ease-in;
+  -webkit-transform: scale(0.7);
+  -ms-transform: scale(0.7);
+  transform: scale(0.7);
+}
+.diagx_stg01 {
+  width: 100%;
+  position: relative;
+}
+.cir_xc {
+  display: block;
+  width: 300px;
+  height: 300px;
+  background-color: #fff;
+  border-radius: 50%;
+  margin: 0 auto;
+  padding: 105px 35px;
+  top: 100px;
+  position: relative;
+  z-index: 2;
+}
+.cir_xc .xc_logo {
+  width: 230px;
+  height: auto;
+}
+.cir_xc_list {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 0;
+  z-index: 1;
+}
+.cir_xc_list .xc_list {
+  cursor: pointer;
+  position: absolute;
+  margin: 0;
+  width: 197px;
+  height: 240px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  list-style: none;
+  text-align: center;
+}
+.xc_list_01 {
+  background-image: url(https://livetravelspace.com/wp-content/uploads/2020/04/diagx_xc_01.png);
+  top: -22px;
+  left: 53px;
+  padding: 83px 45px;
+}
+.xc_list_02 {
+  background-image: url(https://livetravelspace.com/wp-content/uploads/2020/04/diagx_xc_02.png);
+  top: -23px;
+  left: 247px;
+  padding: 83px 45px;
+}
+.xc_list_03 {
+  background-image: url(https://livetravelspace.com/wp-content/uploads/2020/04/diagx_xc_03.png);
+  top: 132px;
+  left: 338px;
+  padding: 97px 37px 97px 59px;
+}
+.xc_list_04 {
+  background-image: url(https://livetravelspace.com/wp-content/uploads/2020/04/diagx_xc_04.png);
+  top: 285px;
+  left: 247px;
+  padding: 112px 49px 79px;
+}
+.xc_list_05 {
+  background-image: url(https://livetravelspace.com/wp-content/uploads/2020/04/diagx_xc_05.png);
+  top: 284px;
+  left: 53px;
+  padding: 112px 45px 79px 45px;
+}
+.xc_list_06 {
+  background-image: url(https://livetravelspace.com/wp-content/uploads/2020/04/diagx_xc_06.png);
+  top: 133px;
+  left: -36px;
+  padding: 97px 59px 97px 37px;
+}
+.cir_xc:hover,
+.cir_ce:hover {
+  background-color: #e2f3ff;
+}
+.cir_xc_list .xc_list:hover {
+  z-index: 3;
+}
+.diagx_stg03 {
+  width: 260px;
+  position: absolute;
+  right: -168px;
+  top: 76px;
+}
+.cir_ce {
+  display: block;
+  width: 158px;
+  height: 158px;
+  background-color: #fff;
+  border-radius: 50%;
+  margin: 0 auto;
+  padding: 33px 20px;
+  top: 100px;
+  position: relative;
+  z-index: 2;
+  left: 119px;
+}
+.cir_ce .ce_icon {
+  width: 118px;
+  height: auto;
+}
+.cir_ce_list {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 0;
+  z-index: 1;
+}
+.cir_ce_list .ce_list {
+  cursor: pointer;
+  position: absolute;
+  margin: 0;
+  width: 94px;
+  height: 138px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  font-size: 16px;
+  list-style: none;
+  text-align: center;
+}
+.cir_ce_list .ce_list img {
+  width: 28px;
+  height: auto;
+}
+.cir_ce_shk {
+  position: absolute;
+  width: 41px;
+  height: 66px;
+  background-image: url(https://livetravelspace.com/wp-content/uploads/2020/04/diagx_ce_shock.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  top: 31px;
+  right: 40px;
+}
+.aniactivate {
+  -webkit-animation-name: hvr-bob-float, hvr-bob;
+  -ms-animation-name: hvr-bob-float, hvr-bob;
+  animation-name: hvr-bob-float, hvr-bob;
+  -webkit-animation-duration: 0.3s, 1.5s;
+  -ms-animation-duration: 0.3s, 1.5s;
+  animation-duration: 0.3s, 1.5s;
+  -webkit-animation-delay: 0s, 0.3s;
+  -ms-animation-delay: 0s, 0.3s;
+  animation-delay: 0s, 0.3s;
+  -webkit-animation-timing-function: ease-out, ease-in-out;
+  -ms-animation-timing-function: ease-out, ease-in-out;
+  animation-timing-function: ease-out, ease-in-out;
+  -webkit-animation-iteration-count: 1, infinite;
+  -ms-animation-iteration-count: 1, infinite;
+  animation-iteration-count: 1, infinite;
+  -webkit-animation-fill-mode: forwards;
+  -ms-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-direction: normal, alternate;
+  -ms-animation-direction: normal, alternate;
+  animation-direction: normal, alternate;
+}
+.ce_list_01 {
+  background-image: url(https://livetravelspace.com/wp-content/uploads/2020/04/diagx_ce_03.png);
+  top: 28px;
+  left: 155px;
+  padding: 48px 32px;
+}
+.ce_list_02 {
+  background-image: url(https://livetravelspace.com/wp-content/uploads/2020/04/diagx_ce_05.png);
+  top: 28px;
+  left: 250px;
+  padding: 48px 32px;
+}
+.ce_list_03 {
+  background-image: url(https://livetravelspace.com/wp-content/uploads/2020/04/diagx_ce_04.png);
+  top: 110px;
+  left: 297px;
+  padding: 56px 39px;
+}
+.ce_list_04 {
+  background-image: url(https://livetravelspace.com/wp-content/uploads/2020/04/diagx_ce_06.png);
+  top: 192px;
+  left: 250px;
+  padding: 62px 32px;
+}
+.ce_list_05 {
+  background-image: url(https://livetravelspace.com/wp-content/uploads/2020/04/diagx_ce_01.png);
+  top: 191px;
+  left: 155px;
+  padding: 62px 32px;
+}
+.ce_list_06 {
+  background-image: url(https://livetravelspace.com/wp-content/uploads/2020/04/diagx_ce_02.png);
+  top: 110px;
+  left: 107px;
+  padding: 56px 35px 56px 28px;
+}
+.trgt_view {
+  position: absolute;
+  z-index: -1;
+}
+.trgt_rtl {
+  text-align: right;
+}
+.trgt_rtl .animate_line {
+  left: auto;
+  right: 44px;
+}
+.trgt_rtl .diagnalline {
+  top: 21px;
+  left: auto;
+  right: 294px;
+}
+.for_corp {
+  left: -350px;
+  top: 0;
+}
+.for_b2b {
+  left: -350px;
+  top: 230px;
+}
+.for_retail {
+  left: -350px;
+  top: 460px;
+}
+.for_front {
+  left: -15px;
+  top: 460px;
+}
+.for_content_flight {
+  right: -591px;
+  top: 0;
+}
+.for_content_hotel {
+  right: -591px;
+  top: 230px;
+}
+.for_content_more {
+  right: -591px;
+  top: 460px;
+}
+.for_content_nego {
+  right: -264px;
+  top: 460px;
+  text-align: center;
+  width: 210px;
+}
+.for_content_warehouse {
+  right: -15px;
+  top: 460px;
+  width: 220px;
+}
+.for_content_Caching {
+  right: -264px;
+  top: 0;
+  text-align: center;
+  width: 210px;
+}
+.trgt_no {
+  width: 47px;
+  height: 47px;
+  background-color: #c22227;
+  border-radius: 50%;
+  font-size: 28px;
+  text-align: center;
+  font-weight: bold;
+  color: #fff;
+  line-height: 47px;
+  padding-left: 6px;
+  display: inline-block;
+}
+.trgt_no img {
+  width: 42px;
+  height: auto;
+  margin-left: -5px;
+}
+.trgt_name {
+  padding: 12px 0;
+}
+.trgt_name a,
+.trgt_name h4 {
+  font-size: 22px;
+  margin: 0;
+  font-weight: bold;
+  color: #c22227;
+}
+.trgt_bxlist {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.trgt_bxlist li {
+  display: inline-block;
+  vertical-align: top;
+}
+.bxlist {
+  background-color: #377ebf;
+  width: 77px;
+  height: 75px;
+  font-size: 14px;
+  text-align: center;
+  font-weight: bold;
+  color: #fff;
+  display: block;
+  border-radius: 3px;
+  padding-top: 16px;
+  position: relative;
+}
+.bxlist:hover,
+.bxlist:focus {
+  color: #fff;
+  text-decoration: none;
+}
+.bxlist:hover {
+  -webkit-transform: scale(1.1) !important;
+  transform: scale(1.1) !important;
+  -ms-transform: scale(1.1) !important;
+}
+.threeliner {
+  padding-top: 7px;
+}
+.compactliner {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.oneliner {
+  padding-top: 28px;
+}
+.has_icon {
+  font-size: 12px;
+  padding-top: 52px;
+  line-height: 1;
+}
+.has_icon img {
+  width: 42px;
+  height: auto;
+  display: block;
+  position: absolute;
+  left: 18px;
+  top: 5px;
+}
+.twoliner.has_icon {
+  padding-top: 46px;
+}
+/*animation*/
+.animate_line {
+  height: 0px;
+  width: 1px;
+  border-bottom: 4px solid #c22227;
+  position: absolute;
+  top: 21px;
+  left: 44px;
+  -webkit-animation: increase 1s linear;
+  -ms-animation: increase 1s linear;
+  animation: increase 1s linear;
+  -ms-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+@keyframes increase {
+  100% {
+    width: 250px;
+  }
+}
+@keyframes increase2 {
+  100% {
+    width: 400px;
+  }
+}
+@keyframes increase3 {
+  100% {
+    width: 66px;
+  }
+}
+.diagnalline {
+  position: absolute;
+  top: 21px;
+  left: 294px;
+  overflow: hidden;
+  width: 300px;
+  height: 218px;
+  background: -webkit-linear-gradient(
+      36deg,
+      transparent 49.5%,
+      #c22227 49.5%,
+      #c22227 50.3%,
+      transparent 50.3%
+    )
+    no-repeat -300px -218px;
+  background: -ms-linear-gradient(
+      36deg,
+      transparent 49.5%,
+      #c22227 49.5%,
+      #c22227 50.3%,
+      transparent 50.3%
+    )
+    no-repeat -300px -218px;
+  background: linear-gradient(
+      36deg,
+      transparent 49.5%,
+      #c22227 49.5%,
+      #c22227 50.3%,
+      transparent 50.3%
+    )
+    no-repeat -300px -218px;
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#c22227', endColorstr='#7db9e8', ) no-repeat -300px -218px;
+  background-size: 100% 100%;
+  animation: drawDiag 1.5s linear forwards;
+  -ms-animation: drawDiag 1.5s linear forwards;
+  -webkit-animation-delay: 1s;
+  animation-delay: 1s;
+  -ms-animation-delay: 1s;
+}
+@keyframes drawDiag {
+  to {
+    background-position: 0 0;
+  }
+}
+.for_corp .diagnalline {
+  -webkit-transform: rotate(23deg);
+  -ms-transform: rotate(23deg);
+  transform: rotate(23deg);
+  top: 18px;
+  left: 258px;
+  width: 200px;
+}
+.for_b2b .animate_line {
+  -webkit-animation: increase2 1s linear;
+  -ms-animation: increase2 1s linear;
+  animation: increase2 1s linear;
+  -ms-animation-fill-mode: forwards;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+.for_b2b .diagnalline {
+  -webkit-transform: rotate(-36deg);
+  -ms-transform: rotate(-36deg);
+  transform: rotate(-36deg);
+  top: -87px;
+  left: 326px;
+  display: none;
+}
+.for_retail .diagnalline {
+  -webkit-transform: rotate(-97deg);
+  -ms-transform: rotate(-97deg);
+  transform: rotate(-97deg);
+  top: -192px;
+  left: 252px;
+  width: 200px;
+}
+.for_front .animate_line {
+  -webkit-animation: increase3 1s linear;
+  -ms-animation: increase3 1s linear;
+  animation: increase3 1s linear;
+  -ms-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+.for_front .diagnalline {
+  -webkit-transform: rotate(-97deg);
+  -ms-transform: rotate(-97deg);
+  transform: rotate(-97deg);
+  top: -192px;
+  left: 68px;
+  width: 200px;
+}
+.for_content_flight .diagnalline {
+  -webkit-transform: rotate(-275deg);
+  -ms-transform: rotate(-275deg);
+  transform: rotate(-275deg);
+  top: 71px;
+  right: 237px;
+}
+.for_content_hotel .animate_line {
+  -webkit-animation: increase2 1s linear;
+  -ms-animation: increase2 1s linear;
+  animation: increase2 1s linear;
+  -ms-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+.for_content_hotel .diagnalline {
+  display: none;
+}
+.for_content_more .diagnalline {
+  -webkit-transform: rotate(-161deg);
+  -ms-transform: rotate(-161deg);
+  transform: rotate(-161deg);
+  top: -185px;
+  right: 265px;
+  width: 200px;
+}
+.for_content_nego .animate_line {
+  display: none;
+}
+.for_content_nego .diagnalline {
+  -webkit-transform: rotate(234deg);
+  -ms-transform: rotate(234deg);
+  transform: rotate(234deg);
+  top: -231px;
+  right: 7px;
+  width: 200px;
+}
+.for_content_warehouse .animate_line {
+  -webkit-animation: increase3 1s linear;
+  -ms-animation: increase3 1s linear;
+  animation: increase3 1s linear;
+  animation-fill-mode: forwards;
+  -ms-animation-fill-mode: forwards;
+}
+.for_content_warehouse .diagnalline {
+  -webkit-transform: rotate(-163deg);
+  -ms-transform: rotate(-163deg);
+  transform: rotate(-163deg);
+  top: -182px;
+  left: -64px;
+  width: 200px;
+}
+.for_content_Caching .animate_line {
+  display: none;
+}
+.for_content_Caching .diagnalline {
+  -webkit-transform: rotate(54deg);
+  -ms-transform: rotate(54deg);
+  transform: rotate(54deg);
+  top: 58px;
+  right: 5px;
+  width: 200px;
+}
+/* -- scroll animation --*/ /*
+.for_corp, 
+.for_b2b, 
+.for_retail, 
+.for_front { opacity:1;transform: translate(-100px);transition-property: opacity,transform;transition-duration: 1s; transition-timing-function: cubic-bezier(.175,.885,.32,1.275); }
+.diagx_stg03 { opacity:1;transform: translate(100px);transition-property: opacity,transform;transition-duration: 1s; transition-timing-function: cubic-bezier(.175,.885,.32,1.275); }
+.diagx_stg04 {opacity:1;transform: translate(100px);transition-property: opacity,transform;transition-duration: 1s;transition-timing-function: cubic-bezier(.175,.885,.32,1.275);position: absolute;top: 0;left: 499px;}*/
+.for_corp {
+}
+.for_b2b {
+  -ms-transition-delay: 0.2s;
+  transition-delay: 0.2s;
+}
+.for_retail {
+  -ms-transition-delay: 0.4s;
+  transition-delay: 0.4s;
+}
+.for_front {
+  -ms-transition-delay: 0.6s;
+  transition-delay: 0.6s;
+}
+.stage01 .diagx_stg02 .for_corp,
+.stage01 .diagx_stg02 .for_b2b,
+.stage01 .diagx_stg02 .for_retail,
+.stage01 .diagx_stg02 .for_front,
+.stage02 .diagx_stg02 .for_corp,
+.stage02 .diagx_stg02 .for_b2b,
+.stage02 .diagx_stg02 .for_retail,
+.stage02 .diagx_stg02 .for_front,
+.stage03 .diagx_stg02 .for_corp,
+.stage03 .diagx_stg02 .for_b2b,
+.stage03 .diagx_stg02 .for_retail,
+.stage03 .diagx_stg02 .for_front,
+.animation_completed .diagx_stg02 .for_corp,
+.animation_completed .diagx_stg02 .for_b2b,
+.animation_completed .diagx_stg02 .for_retail,
+.animation_completed .diagx_stg02 .for_front,
+.stage02 .diagx_stg02,
+.stage03 .diagx_stg02 {
+  opacity: 1;
+  transform: translate(0);
+  filter: alpha(opacity=100);
+  -ms-transform: translate(0);
+}
+.stage02 .diagx_stg03,
+.stage03 .diagx_stg03 {
+  opacity: 1;
+  transform: translate(0);
+  filter: alpha(opacity=100);
+  -ms-transform: translate(0);
+}
+.stage03 .diagx_stg04 {
+  opacity: 1;
+  transform: translate(0);
+  filter: alpha(opacity=100);
+  -ms-transform: translate(0);
+}
+.animation_completed .diagx_stg03 {
+  opacity: 1;
+  transform: translate(0);
+  filter: alpha(opacity=100);
+  -ms-transform: translate(0);
+}
+.animation_completed .diagx_stg04 {
+  opacity: 1;
+  transform: translate(0);
+  filter: alpha(opacity=100);
+  -ms-transform: translate(0);
+}
+.animation_completed .diagx_stg02 {
+  opacity: 1;
+  transform: translate(0);
+  filter: alpha(opacity=100);
+  -ms-transform: translate(0);
+}
+
+/*round hexagon*/
+.rhex {
+  position: relative;
+  margin: 1em auto;
+  width: 265px;
+  height: 450px;
+  border-radius: 40px/ 20px;
+  background: orange;
+  transition: opacity 0.5s;
+}
+.rhex:before,
+.rhex:after {
+  position: absolute;
+  width: inherit;
+  height: inherit;
+  border-radius: inherit;
+  background: inherit;
+  content: "";
+}
+.rhex:before {
+  transform: rotate(60deg);
+}
+.rhex:after {
+  transform: rotate(-60deg);
+}
+.cir_ce_dir {
+  width: 0px;
+  height: 0px;
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+  border-right: 15px solid #377ebf;
+  position: absolute;
+  top: 167px;
+  left: 91px;
+}
+.cir_ce_dir:after {
+  content: "";
+  position: absolute;
+  width: 11px;
+  background-color: #377ebf;
+  height: 14px;
+  left: 15px;
+  top: -7px;
+}
+.diagnal_mask {
+  position: relative;
+}
+.diagnal_mask h4,
+.diagnal_mask a {
+  z-index: 1;
+  position: relative;
+}
+.diagnal_mask:after {
+  content: "";
+  position: absolute;
+  width: 5px;
+  background-color: #ffffff;
+  height: 19px;
+  left: 101px;
+  top: 19px;
+}
+.fill_ornage .animate_line {
+  border-color: #f08d2a;
+}
+.fill_ornage .diagnalline {
+  background: linear-gradient(
+      36deg,
+      transparent 49.5%,
+      #f08d2a 49.5%,
+      #f08d2a 50.3%,
+      transparent 50.3%
+    )
+    no-repeat -300px -218px;
+}
+.fill_ornage .trgt_no,
+.fill_ornage .bxlist {
+  background-color: #f08d2a;
+}
+.fill_ornage .trgt_name h4,
+.fill_ornage .trgt_name a {
+  color: #f08d2a;
+}
+.fill_blue .animate_line {
+  border-color: #228ac7;
+}
+.fill_blue .diagnalline {
+  background: linear-gradient(
+      36deg,
+      transparent 49.5%,
+      #228ac7 49.5%,
+      #228ac7 50.3%,
+      transparent 50.3%
+    )
+    no-repeat -300px -218px;
+}
+.fill_blue .trgt_no,
+.fill_blue .bxlist {
+  background-color: #228ac7;
+}
+.fill_blue .trgt_name h4,
+.fill_blue .trgt_name a {
+  color: #228ac7;
+}
+.fill_green .animate_line {
+  border-color: #81943a;
+}
+.fill_green .diagnalline {
+  background: linear-gradient(
+      36deg,
+      transparent 49.5%,
+      #81943a 49.5%,
+      #81943a 50.3%,
+      transparent 50.3%
+    )
+    no-repeat -300px -218px;
+}
+.fill_green .trgt_no,
+.fill_green .bxlist {
+  background-color: #81943a;
+}
+.fill_green .trgt_name h4,
+.fill_green .trgt_name a {
+  color: #81943a;
+}
+.fill_teal .animate_line {
+  border-color: #1faac8;
+}
+.fill_teal .diagnalline {
+  background: linear-gradient(
+      36deg,
+      transparent 49.5%,
+      #1faac8 49.5%,
+      #1faac8 50.3%,
+      transparent 50.3%
+    )
+    no-repeat -300px -218px;
+}
+.fill_teal .trgt_no,
+.fill_teal .bxlist {
+  background-color: #1faac8;
+}
+.fill_teal .trgt_name h4,
+.fill_teal .trgt_name a {
+  color: #1faac8;
+}
+.header-slider-section {
+  position: relative;
+}
+.scroll_more,
+.go-top {
+  display: block;
+  width: 36px;
+  height: 36px;
+  line-height: 40px;
+  text-align: center;
+  font-size: 30px;
+  position: absolute;
+  bottom: -18px;
+  left: 50%;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  transition: all 1s ease;
+  background-color: #fff;
+  color: #999;
+  text-decoration: none;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 50%;
+  z-index: 1029;
+  box-shadow: 0 0 0 5px rgba(0, 0, 0, 0.2);
+  margin-left: -16px;
+}
+.scroll_more:hover,
+.go-top:hover {
+  box-shadow: 0 0 0 15px rgba(0, 0, 0, 0.1);
+  color: #000;
+}
+.scroll_more .infotext {
+  display: block;
+  position: absolute;
+  bottom: -20px;
+  white-space: nowrap;
+  font-size: 11px;
+  text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.3);
+  line-height: 1.2;
+  width: 110px;
+  left: 50%;
+  margin-left: -55px;
+  color: #fff;
+}
+/*IE fix*/
+.hvr-grow,
+.hvr-bounce-in {
+  -webkit-transform: none;
+  transform: none;
+}
+/*box design new*/
+.diagx-solution-heading {
+  color: #fff;
+  font-size: 30px;
+  text-align: center;
+  padding-top: 160px;
+}
+.diagx-wrap {
+  border-radius: 10px;
+  border: 10px solid rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 30px 60px rgba(0, 0, 0, 0.2);
+}
+.diagx-wrap-bg {
+  background: #fff;
+  height: 550px;
+}
+.xchange-diagram-section {
+  position: relative;
+  margin-top: 50px;
+}
+.xchange-diagram-section .diagx-pad-bot {
+  padding-bottom: 50px;
+}
+@media only screen and (max-width: 1500px) {
+  .diagxchagne {
+    overflow: hidden;
+    overflow-y: auto;
+  }
+  .diagx-wrap {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+    left: -99px;
+  }
+}
+@media only screen and (max-width: 1400px) {
+  .diagx-wrap {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+    left: -70px;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .diagx-wrap {
+    -webkit-transform: scale(0.4);
+    transform: scale(0.9);
+    left: -58px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .diagxchagne,
+  .diagx-wrap {
+    display: none;
+  }
+  .xchange-diagram-section {
+    display: none;
+  }
+  .blog-section {
+    padding: 120px 0 50px 0;
+  }
+}
+@media only screen and (min-width: 1100px) and (max-width: 1200px) {
+  .diagx-wrap {
+    -webkit-transform: scale(0.8);
+    transform: scale(0.8);
+  }
+  .xchange-diagram-section .diagx-pad-bot {
+    width: 100%;
+  }
+  .xchange-diagram-section {
+    margin-top: -180px;
+  }
+  .xchange-diagram-section .diagx-pad-bot {
+    padding-bottom: 10px;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1100px) {
+  .diagx-wrap {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    margin-top: 50px;
+  }
+  .xchange-diagram-section .diagx-pad-bot {
+    width: 100%;
+  }
+  .diagx {
+    -webkit-transform: scale(0.6);
+    transform: scale(0.6);
+    top: -90px;
+    left: -80px;
+  }
+  .xchange-diagram-section {
+    margin-top: -180px;
+  }
+  .diagx-wrap-bg {
+    height: 450px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  .diagx-wrap {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  .xchange-diagram-section .diagx-pad-bot {
+    width: 100%;
+  }
+  .diagx-solution-heading {
+    padding-top: 120px;
+  }
+  .diagx {
+    -webkit-transform: scale(0.6);
+    transform: scale(0.6);
+    left: -75px;
+  }
+  .diagx-wrap-bg {
+    height: 400px;
+  }
+}
+@media only screen and (max-width: 950px) {
+  .diagx {
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5);
+    left: -62px;
+    top: -110px;
+  }
+  .xchange-diagram-section {
+    margin-top: -190px;
+  }
+}
+@media only screen and (min-width: 945px) and (max-width: 992px) {
+  .diagx {
+    top: -120px;
+  }
+}
