@@ -56,37 +56,37 @@
   text-align: center;
 }
 .xc_list_01 {
-  background-image: url(https://livetravelspace.com/wp-content/uploads/2020/04/diagx_xc_01.png);
+  background-image: url(../images/diagx_xc_01.png);
   top: -22px;
   left: 53px;
   padding: 83px 45px;
 }
 .xc_list_02 {
-  background-image: url(https://livetravelspace.com/wp-content/uploads/2020/04/diagx_xc_02.png);
+  background-image: url(../images/diagx_xc_02.png);
   top: -23px;
   left: 247px;
   padding: 83px 45px;
 }
 .xc_list_03 {
-  background-image: url(https://livetravelspace.com/wp-content/uploads/2020/04/diagx_xc_03.png);
+  background-image: url(../images/diagx_xc_03.png);
   top: 132px;
   left: 338px;
   padding: 97px 37px 97px 59px;
 }
 .xc_list_04 {
-  background-image: url(https://livetravelspace.com/wp-content/uploads/2020/04/diagx_xc_04.png);
+  background-image: url(../images/diagx_xc_04.png);
   top: 285px;
   left: 247px;
   padding: 112px 49px 79px;
 }
 .xc_list_05 {
-  background-image: url(https://livetravelspace.com/wp-content/uploads/2020/04/diagx_xc_05.png);
+  background-image: url(../images/diagx_xc_05.png);
   top: 284px;
   left: 53px;
   padding: 112px 45px 79px 45px;
 }
 .xc_list_06 {
-  background-image: url(https://livetravelspace.com/wp-content/uploads/2020/04/diagx_xc_06.png);
+  background-image: url(../images/diagx_xc_06.png);
   top: 133px;
   left: -36px;
   padding: 97px 59px 97px 37px;
@@ -148,7 +148,7 @@
   position: absolute;
   width: 41px;
   height: 66px;
-  background-image: url(https://livetravelspace.com/wp-content/uploads/2020/04/diagx_ce_shock.png);
+  background-image: url(../images/diagx_ce_shock.png);
   background-repeat: no-repeat;
   background-size: 100%;
   top: 31px;
@@ -178,37 +178,37 @@
   animation-direction: normal, alternate;
 }
 .ce_list_01 {
-  background-image: url(https://livetravelspace.com/wp-content/uploads/2020/04/diagx_ce_03.png);
+  background-image: url(../images/diagx_ce_03.png);
   top: 28px;
   left: 155px;
   padding: 48px 32px;
 }
 .ce_list_02 {
-  background-image: url(https://livetravelspace.com/wp-content/uploads/2020/04/diagx_ce_05.png);
+  background-image: url(../images/diagx_ce_05.png);
   top: 28px;
   left: 250px;
   padding: 48px 32px;
 }
 .ce_list_03 {
-  background-image: url(https://livetravelspace.com/wp-content/uploads/2020/04/diagx_ce_04.png);
+  background-image: url(../images/diagx_ce_04.png);
   top: 110px;
   left: 297px;
   padding: 56px 39px;
 }
 .ce_list_04 {
-  background-image: url(https://livetravelspace.com/wp-content/uploads/2020/04/diagx_ce_06.png);
+  background-image: url(../images/diagx_ce_06.png);
   top: 192px;
   left: 250px;
   padding: 62px 32px;
 }
 .ce_list_05 {
-  background-image: url(https://livetravelspace.com/wp-content/uploads/2020/04/diagx_ce_01.png);
+  background-image: url(../images/diagx_ce_01.png);
   top: 191px;
   left: 155px;
   padding: 62px 32px;
 }
 .ce_list_06 {
-  background-image: url(https://livetravelspace.com/wp-content/uploads/2020/04/diagx_ce_02.png);
+  background-image: url(../images/diagx_ce_02.png);
   top: 110px;
   left: 107px;
   padding: 56px 35px 56px 28px;
@@ -541,15 +541,6 @@
   top: 58px;
   right: 5px;
   width: 200px;
-}
-/* -- scroll animation --*/ /*
-.for_corp, 
-.for_b2b, 
-.for_retail, 
-.for_front { opacity:1;transform: translate(-100px);transition-property: opacity,transform;transition-duration: 1s; transition-timing-function: cubic-bezier(.175,.885,.32,1.275); }
-.diagx_stg03 { opacity:1;transform: translate(100px);transition-property: opacity,transform;transition-duration: 1s; transition-timing-function: cubic-bezier(.175,.885,.32,1.275); }
-.diagx_stg04 {opacity:1;transform: translate(100px);transition-property: opacity,transform;transition-duration: 1s;transition-timing-function: cubic-bezier(.175,.885,.32,1.275);position: absolute;top: 0;left: 499px;}*/
-.for_corp {
 }
 .for_b2b {
   -ms-transition-delay: 0.2s;
